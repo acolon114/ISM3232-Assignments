@@ -55,3 +55,13 @@ console.log(employeeScore1 >= employeeScore2); // Output: true
 console.log(employeeScore1 <= employeeScore2); // Output: false
 console.log(employeeScore1 === employeeScore2); // Output: true
 console.log(employeeScore1 !== employeeScore2); // Output: true
+
+// Task 5: Logical Operators
+
+const hasKeyCard = true;
+const hasPermission = false;
+
+console.log(hasKeyCard && hasPermission); // Output: false
+console.log(hasKeyCard || hasPermission); // Output: true
+console.log(!hasKeyCard); // Output: false
+console.log(!hasPermission); // Output: true
