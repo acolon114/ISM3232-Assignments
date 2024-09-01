@@ -26,3 +26,19 @@ console.log(products);
 console.log( "Product Name: " + productDetails.name 
     + " | Product Price:" + productDetails.price 
     + " | Product in Stock:" + productDetails.inStock);
+
+// Task 3: Assignment Operators
+
+// Declared variable and assigned an inital 
+let accountBalance = 50;
+ // Adding 
+accountBalance += 15;
+console.log(accountBalance); // Updated Profit: 65
+accountBalance -= 25;
+console.log(accountBalance); // Updated Profit: 40
+accountBalance *= 2;
+console.log(accountBalance); // Updated Profit: 80
+accountBalance /=20;
+console.log(accountBalance); // Updated Profit: 4
+accountBalance %= 2;
+console.log(accountBalance); // Updated Profit: 0   
